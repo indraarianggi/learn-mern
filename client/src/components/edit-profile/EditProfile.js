@@ -290,7 +290,7 @@ class CreateProfile extends Component {
 
                                 <TextAreaFieldGroup
                                     placeholder="Short Bio"
-                                    name="compbioany"
+                                    name="bio"
                                     value={this.state.bio}
                                     onChange={this.onChange}
                                     error={errors.bio}
